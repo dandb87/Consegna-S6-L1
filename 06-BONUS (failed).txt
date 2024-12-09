@@ -1,0 +1,19 @@
+Ho cercato di caricare due Web SHELL avanzate: R57.php e DAws.php.
+
+Ho fallito miseramente in entrambi i casi, sia con Security Low che Medium.
+
+La R57.php non viene caricata in alcun modo.
+
+La DAws.php viene caricata solo in Low mode ma non viene eseguita!
+
+
+Ho provato a:
+ - modificare il nome e l'estensione
+ - cambiare i permessi del file una volta caricata sul server (con una web shell semplice)
+ - modificare il contenuto della richiesta con Burpsuite
+
+
+Niente di tutto questo mi ha funzionato!!!
+
+
+Sono curioso di conoscere la soluzione!
